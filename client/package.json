@@ -1,0 +1,42 @@
+{
+  "name": "occurs-client",
+  "version": "1.0.0",
+  "description": "A small demo project",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@angular/common": "*",
+    "@angular/compiler": "*",
+    "@angular/core": "*",
+    "@angular/forms": "*",
+    "@angular/http": "*",
+    "@angular/platform-browser": "*",
+    "@angular/platform-browser-dynamic": "*",
+    "@angular/router": "*",
+    "@angular/upgrade": "*",
+    "angular-in-memory-web-api": "*",
+    "angular2-template-loader": "^0.6.0",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "browser-sync": "*",
+    "core-js": "*",
+    "gulp": "*",
+    "gulp-webpack": "*",
+    "raw-loader": "^0.5.1",
+    "run-sequence": "*",
+    "rxjs": "*",
+    "to-string-loader": "^1.1.5",
+    "webpack": "^2.2.1",
+    "zone.js": "*",
+    "gulp-uglify": "^2.0.1",
+    "file-loader": "^0.10.0",
+    "style-loader": "^0.13.1",
+    "css-loader": "^0.26.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "uglifyjs dist/bundle.js --screw-ie8 --compress --mangle --output dist/bundle.js"
+  },
+  "author": "Vlad Dindeal <alex@incolors.net>"
+}

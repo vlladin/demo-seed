@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "1084fff6-1877-4711-9f1a-30972f0893cf",
+      "username": "user",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "97017f29-07c0-4cd7-b763-d38d3583b62f",
+      "username": "admin",
+      "password": "1234",
+      "role": "admin"
+    }
+  ]
+}
